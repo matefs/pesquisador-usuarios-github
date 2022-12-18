@@ -40,24 +40,24 @@ function App() {
   
       <header className='header-top'>
           <ul>
-              <li>Jovem Programador</li>
+              <Typography variant="body2" >Jovem Programador</Typography>
           </ul>
       </header>
 
-      <div className="form" >
-        <h1>Buscador de perfil do github</h1>
+      <Card sx={{ maxWidth: 850 }}>
+        <Typography variant='h2'>Buscador de perfil do github</Typography>
         
-        <TextField 
-              id="outlined-basic" 
-              label="Outlined" 
-              variant="outlined" 
-              placeholder="Digite o username"
-              onChange={(eventoAoDigitar) => { setSearch(eventoAoDigitar.target.value)}} />
+        <CardContent>
+          <TextField 
+                id="outlined-basic" 
+                label="Digite o username" 
+                variant="outlined"  
+                onChange={(eventoAoDigitar) => { setSearch(eventoAoDigitar.target.value)}} />
 
-              
-        <Button variant="contained" onClick={handleSearch}>Buscar</Button>
-
-      </div>
+                
+          <Button variant="contained" onClick={handleSearch}>Buscar</Button>
+        </CardContent>
+      </Card>
   
     </Grid>
           
@@ -67,17 +67,13 @@ function App() {
       <div className="content">  
          <div>
                   <Avatar src={avatarUrl} alt="profile-image" sx={{ width: 256, height: 256 }} />
-                  <h1>{name}</h1>
-                  <p>{bio}</p>
+                  <Typography variant="h3" >{name}</Typography>
+                  <Typography>{bio}</Typography>
           </div>
       </div>
   
     </Grid>
-
     
-
-
- 
  
     </Grid>
   )
