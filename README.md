@@ -1,1 +1,1 @@
-# pesquisador-usuarios-github 
+# Pesquisador de usuários do Github 
