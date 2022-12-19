@@ -1,5 +1,12 @@
-.header-top{
-  display:flex;
-  justify-content: center;
-}
- 
+ body { 
+  background-color: #ecf0f1;
+ }
+
+ h1,h2,h3,h4,h5,h6 {
+  padding: 1%;
+ }
+
+ #espacador { 
+  margin-left:1%;
+ }
+
