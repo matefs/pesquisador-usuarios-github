@@ -5,7 +5,7 @@ Projeto feito usando React JS + Vite + Axios consumindo api do Github (https://a
 
 
 ## Como rodar o projeto
-1. Faça o download do repositório 
+1. Faça o download do repositório  ` git clone https://github.com/matefs/pesquisador-usuarios-github.git`
 2. No diretório do projeto rode o comando `yarn install`
 3. No diretório do projeto rode o comando `yarn dev`
 
